@@ -1,0 +1,92 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-name{
+    margin: 1rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 1rem;
+    background: #f6eec3;
+    border: .2em solid #E9D66B;
+    border-radius: 2rem;
+}
+
+.input-container input{
+    all: unset;
+    width: 200px;
+}
+
+.input-container button{
+    all: unset;
+    color: #5a5858;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+@media only screen and (min-width:720px) and (max-width: 1280px) {
+
+    .container-name{
+        margin: 3rem;
+        font-size: 2em;
+    }
+
+    .input-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        padding: 1rem;
+        background: #f6eec3;
+        border: .2em solid #E9D66B;
+        border-radius: 2rem;
+    }
+
+    .input-container input{
+        all: unset;
+        width: 60vw;
+        height: 4rem;
+        font-size: 1.5em;
+    }
+
+    .input-container button{
+        all: unset;
+        color: #5a5858;
+        text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (min-width:1280px){
+
+    .search-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-left: 65vw;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        width: 30vw;
+        height: 2.5rem;
+        background: #51ae5f;
+    }
+
+    .input-container input{
+        all: unset;
+        width: 23vw;
+        height: 4rem;
+        font-size: 1.5em;
+    }
+
+}

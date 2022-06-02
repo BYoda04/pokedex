@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-index{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(66,142,132);
+    background: linear-gradient(0deg, rgba(66,142,132,1) 35%, rgba(255,255,255,1) 65%);
+}
+
+.container-oak{
+    padding-top: 2rem;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-oak img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 75%;
+}
+
+.container-oak::after{
+    margin-top: 80%;
+    content: '';
+    width: 18rem;
+    height: 6rem;
+    background: #ceefde;
+    border: .5rem solid #9dcead;
+    border-radius: 100%;
+}
+
+@media only screen and (min-width:720px) and (max-width: 1280px) {
+
+    .container-oak img{
+        position: absolute;
+        max-width: 100%;
+        max-height: 50%;
+    }
+
+    .container-oak::after{
+        margin-top: 55%;
+        content: '';
+        width: 25rem;
+        height: 8rem;
+        background: #ceefde;
+        border: .5rem solid #9dcead;
+        border-radius: 100%;
+    }
+
+    .container-gener{
+        margin-left: .5rem;
+    }
+
+    .container-gener img{
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width:1280px){
+
+    .container-oak img{
+        position: absolute;
+        max-width: 100%;
+        max-height: 60%;
+    }
+
+    .container-oak::after{
+        margin-top: 23%;
+        content: '';
+        width: 20rem;
+        height: 8rem;
+        background: #ceefde;
+        border: .5rem solid #9dcead;
+        border-radius: 100%;
+    }
+
+}
